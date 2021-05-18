@@ -1,0 +1,126 @@
+/*------------------------------------------------------------------
+    Story
+-------------------------------------------------------------------*/
+
+.title-box {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.title-box h2 {
+    font-size: 60px;
+    font-family: 'Engagement', cursive;
+    color: #222222;
+}
+
+.title-box h2 span {
+    color: #881228;
+    text-decoration: underline;
+}
+
+.story-box {
+    padding: 70px 0px;
+}
+
+.align-left {
+    text-align: left;
+}
+
+.align-right {
+    text-align: right;
+}
+
+.main-timeline-box {
+    position: relative;
+    word-wrap: break-word;
+}
+
+.main-timeline-box .timeline-element {
+    margin-bottom: 50px;
+    position: relative;
+    word-wrap: break-word;
+    word-break: break-word;
+    display: -webkit-flex;
+    flex-direction: row;
+    -webkit-flex-direction: row;
+}
+
+.main-timeline-box .reverse {
+    flex-direction: row-reverse;
+    -webkit-flex-direction: row-reverse;
+}
+
+.main-timeline-box .separline::before {
+    top: 20px;
+    bottom: 0;
+    position: absolute;
+    content: "";
+    width: 2px;
+    background-color: #f1f1f1;
+    left: calc(50% - 1px);
+    height: calc(100% + 4rem);
+}
+
+.main-timeline-box .iconBackground {
+    position: absolute;
+    left: 50%;
+    width: 20px;
+    height: 20px;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 50%;
+    font-size: 30px;
+    display: inline-block;
+    background-color: #f1f1f1;
+    top: 20px;
+    margin-left: -10px;
+}
+
+.main-timeline-box .timeline-text-content {
+    padding: 30px 35px;
+    background: #f1f1f1;
+}
+
+.main-timeline-box .reverse .timeline-text-content {
+    margin-right: 30px;
+}
+
+.main-timeline-box .reverse .time-line-date-content p {
+    float: left;
+    padding: 30px 35px;
+    background: #f1f1f1;
+}
+
+.main-timeline-box .reverse .time-line-date-content {
+    margin-right: 30px;
+}
+
+.display-font {
+    font-family: 'Engagement', cursive;
+    font-size: 30px;
+    color: #222222;
+}
+
+.main-timeline-box .timeline-text-content {
+    margin-left: 30px;
+}
+
+.main-timeline-box .time-line-date-content p {
+    float: right;
+    padding: 30px 35px;
+    background: #f1f1f1;
+}
+
+.main-timeline-box .time-line-date-content {
+    margin-right: 30px;
+}
+
+.main-timeline-box .time-line-date-content .mbr-timeline-date {
+    background: #881228;
+    color: #ffffff;
+}
+
+.main-timeline-box .reverse .time-line-date-content .mbr-timeline-date {
+    background: #63c7bd;
+    color: #ffffff;
+}
